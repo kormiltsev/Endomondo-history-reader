@@ -9,8 +9,9 @@ import (
 	"github.com/neighborhood999/gpx"
 )
 
-func FileTypeStravaGPX() {
-	f, err := os.Open("./etc/strava_workout.gpx")
+// sample using gpx lib
+func FileTypeStravaGPX(fileadr string) {
+	f, err := os.Open(fileadr)
 
 	if err != nil {
 		fmt.Println(err)

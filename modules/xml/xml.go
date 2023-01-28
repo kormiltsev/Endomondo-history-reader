@@ -5,7 +5,8 @@ import (
 	"fmt"
 )
 
-func main() {
+// SampleXML is sample to operates xml
+func SampleXML() {
 	type Email struct {
 		Where string `xml:"where,attr"`
 		Addr  string

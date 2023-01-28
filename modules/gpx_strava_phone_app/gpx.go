@@ -35,8 +35,6 @@ type gpx struct {
 	Track   trk    `xml:"trk"`
 }
 
-//var catalogFilename = "./gpxdata/Samara.gpx"
-
 func StravaFromAndroid(catalogFilename string) {
 	v := gpx{Vers: "none", Creator: "none"}
 

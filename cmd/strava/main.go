@@ -12,8 +12,6 @@ import (
 	"github.com/neighborhood999/gpx"
 )
 
-// var filename = "./etc/strava.gpx"
-// var filename = "./etc/Samara.gpx"
 const dir = "./etc/*.gpx"     // search for any Garmin files
 const endodir = "./etc/*.tcx" // -/- Endomondo (or other tcx) files
 
